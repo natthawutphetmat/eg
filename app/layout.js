@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
-// import Navbar from './components/navbar';
-// import Footer from './components/Footer';
+ import Navbar from './components/navbar';
+ import Footer from './components/Footer';
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./home.css";
@@ -63,9 +63,9 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={inter.className}>
-        {/* <Navbar /> */}
+         <Navbar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" />
       </body>
     </html>
